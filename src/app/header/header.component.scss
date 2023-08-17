@@ -1,0 +1,17 @@
+.main-menu {
+    display: flex;
+    justify-content: flex-start; /* Align menu items to start from left side */
+    align-items: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    direction: rtl !important;
+  }
+  
+  .main-menu-left {
+    margin-right: auto; /* Move menu items to the left side */
+  }
+  
+  .logo {
+    margin-left: auto; /* Move the logo to the right side */
+  }
